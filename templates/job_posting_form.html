@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Job Posting Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    {% include 'navbar.html' %}
+    <div class="container">
+        <h1>Job Posting Form</h1>
+        <form action="{{ url_for('job_posting_form') }}" method="post">
+            <div class="form-group">
+                <label for="title">Job Title:</label>
+                <input type="text" class="form-control" id="title" name="title" required>
+            </div>
+            <div class="form-group">
+                <label for="description">Job Description, Diversity Requirements, Etc:</label>
+                <textarea class="form-control" id="description" name="description" rows="5" required></textarea>
+            </div>
+            <div class="form-group">
+                <label for="skills">Required Skills:</label>
+                <input type="text" class="form-control" id="skills" name="skills" required>
+                <small class="form-text text-muted">Enter skills separated by commas (e.g., Skill1, Skill2, Skill3)</small>
+            </div>
+            <button type="submit" class="btn btn-danger">Submit Job Posting</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% include 'navbar.html' %}
+    <title>Best Job Matches</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center mb-4">Best Job Matches</h1>
+        <table class="table">
+            <thead>
+                
+                <tr>
+                    <th>Job Posting</th>
+                    <th>Best Match Candidate</th>
+                    <th>Match Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for job_id, match_data in matched_candidates.items() %}
+                    <tr>
+                        <td>{{ match_data['job_posting']['title'] }}</td>
+                        <td>{{ match_data['best_match_candidate']['name'] }}</td>
+                        <td>{{ match_data['match_score'] }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

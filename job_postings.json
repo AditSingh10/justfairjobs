@@ -1,0 +1,46 @@
+[
+    {
+      "job_id": 1,
+      "title": "Data Scientist",
+      "description": "We are looking for a skilled data scientist...",
+      "skills": ["Python", "Machine Learning", "Data Analysis"],
+      "diversity_focus": ["Gender Equality", "Racial Inclusion", "Accessibility"]
+    },
+    {
+      "job_id": 2,
+      "title": "Web Developer",
+      "description": "Seeking a talented web developer to join our team...",
+      "skills": ["HTML", "CSS", "JavaScript", "React"],
+      "diversity_focus": ["LGBTQ+ Inclusivity", "Differently Abled Friendly"]
+    },
+    {
+      "job_id": 3,
+      "title": "Social Worker",
+      "description": "Join us in making a positive impact on the community...",
+      "skills": ["Counseling", "Community Engagement", "Empathy"],
+      "diversity_focus": ["Racial and Ethnic Diversity", "Economic Inclusion"]
+    },
+    {
+      "job_id": 4,
+      "title": "UX Designer",
+      "description": "Passionate about inclusive design and user experiences...",
+      "skills": ["User Research", "Prototyping", "Accessibility"],
+      "diversity_focus": ["Inclusive Design", "Gender Diversity", "Neurodiversity"]
+    },
+    {
+      "job_id": 5,
+      "title": "Environmental Engineer",
+      "description": "Help build a sustainable future with your expertise...",
+      "skills": ["Sustainability", "Renewable Energy", "Environmental Impact Assessment"],
+      "diversity_focus": ["Environmental Advocacy", "Community Engagement"]
+    },
+    {
+      "job_id": 6,
+      "title": "HR Diversity Specialist",
+      "description": "Lead diversity initiatives and foster an inclusive culture...",
+      "skills": ["Diversity Training", "Inclusion Strategy", "Employee Engagement"],
+      "diversity_focus": ["Diverse Workforce", "Gender Equality", "LGBTQ+ Support"]
+    }
+  ]
+  
+
